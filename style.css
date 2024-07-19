@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.game-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 32px;
+    height: 500px;
+    align-items: center;
+}
+
+#play-btn{
+    padding: 16px 32px;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: aquamarine;
+}
+
+.player-area{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.robot-container{
+    color: blue;
+}
+
+.human-container{
+    color: rebeccapurple;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.bubble{
+    width: 100px;
+    height: 100px;
+    display: none;
+    background-image: url(./assets/thinkingbubble.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.hand{
+    width: 100px;
+    height: 100px;
+    display: none;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#robot-avatar{
+    background-image: url(./assets/computer.png);
+}
+
+#human-avatar{
+    background-image: url(./assets/player.png);
+}
+
+.robot-rock{
+    background-image: url(./assets/rock.png);
+    transform: rotateY(180deg);
+}
+
+.robot-paper{
+    background-image: url(./assets/paper.png);
+    transform: rotateY(180deg);
+}
+
+.robot-scissor{
+    background-image: url(./assets/scissor.png);
+    transform: rotateY(180deg);
+}
+
+.human-rock{
+    background-image: url(./assets/rock.png);
+}
+
+.human-paper{
+    background-image: url(./assets/paper.png);
+}
+
+.human-scissor{
+    background-image: url(./assets/scissor.png);
+}
+
