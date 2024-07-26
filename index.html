@@ -11,24 +11,29 @@
         <div id="score">Score</div>
         <div class="game-container">
             <div class="robot-container player-area">
-                <div class="bubble"></div>
+                <div id="bubble"></div>
                 <div class="avatar" id="robot-avatar"></div>
                 <h2>Robot</h2>
-                <div class="hand robot-rock"></div>
-                <div class="hand robot-paper"></div>
-                <div class="hand robot-scissor"></div>
+                <div class="hand robot-rock robot-hand"></div>
+                <div class="hand robot-paper robot-hand" ></div>
+                <div class="hand robot-scissor robot-hand" ></div>
             </div>
+        
             <div>
+                <div id="timer"></div>
                 <button id="play-btn">Play!</button>
             </div>
+
             <div class="human-container player-area">
                 <div class="avatar" id="human-avatar"></div>
                 <h2>Player</h2>
-                <div class="hand human-rock"></div>
-                <div class="hand human-paper"></div>
-                <div class="hand human-scissor"></div>
+                <h3>Pick a hand!</h3>
+                <div class="hand human-rock human-hand" data-type="rock"></div>
+                <div class="hand human-paper human-hand" data-type="paper"></div>
+                <div class="hand human-scissor human-hand" data-type="scissors"></div>
             </div>
         </div>
     </main>
+    <script src="game.js" type="module"></script>
 </body>
 </html>

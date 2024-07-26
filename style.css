@@ -20,6 +20,10 @@
     background-color: aquamarine;
 }
 
+#timer{
+    font-size: 48px;
+}
+
 .player-area{
     width: 200px;
     display: flex;
@@ -43,7 +47,7 @@
     background-size: cover;
 }
 
-.bubble{
+#bubble{
     width: 100px;
     height: 100px;
     display: none;
