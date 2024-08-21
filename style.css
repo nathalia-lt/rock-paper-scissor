@@ -3,6 +3,16 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --background-color: #0cc8f2;
+    --accent-color: #f27127;
+    --secondary-color: #f2274c;
+    --black-color: #333A3F;
+}
+
+body{
+    color: var(--black-color);
+}
 
 
 .game-container{
@@ -11,13 +21,14 @@
     margin: 8px 32px;
     height: 500px;
     align-items: center;
+    background-color: var(--background-color);
 }
 
 #play-btn{
     padding: 16px 32px;
     font-size: 24px;
     border-radius: 8px;
-    background-color: aquamarine;
+    background-color: var(--accent-color);
 }
 
 #timer{
@@ -32,11 +43,11 @@
 }
 
 .robot-container{
-    color: blue;
+    color: var(--secondary-color);
 }
 
 .human-container{
-    color: rebeccapurple;
+    color: var(--secondary-color);
 }
 
 .avatar{
