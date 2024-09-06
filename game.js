@@ -78,7 +78,7 @@ let Counter = {
 //dentro dessa funcao eu tenho model e view, entao provavelmente possa ser um controler
 
 
-//essa funcao é um controler, a maioria das vezes so chama as funcoes
+//essa funcao é um controler, a maioria das vezes o controler so chama as funcoes.
 const handlePlayBtnClick = () => {
     // start game timer
     Counter.start()
@@ -169,8 +169,6 @@ const processResult = (typeHandHuman, typeHandRobot) =>{
         [1, 0, -1],
         [-1, 1, 0]
     ]
-
-
     console.log('typeHandHuman', typeHandHuman)
     console.log('typeHandRobot', typeHandRobot)
 
